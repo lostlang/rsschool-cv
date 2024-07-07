@@ -1,10 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CV</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"
+	rel="stylesheet">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<div class="mx-auto" id="content">
+	<header>
+		<nav>
+		<ul class="flex justify-around px-3">
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#experience">Experience</a></li>
+			<li><a href="#education">Education</a></li>
+			<li><a href="#projects">Projects</a></li>
+		</ul>
+		</nav>
+	</header>
+	<main class="text-xl">
+		<div class="py-3 px-2">
+			<h1 class="pl-2 text-5xl">Alec Lang (Aleksandr&nbsp;Zemskov)</h1>
+			<div class="pl-5">
+			<table>
+			<tr>
+				<td>Position:</td>
+				<td class="font-bold">Software Engineer</td>
+			</tr>
+			<tr>
+				<td>Location:</td>
+				<td class="font-bold">Oskemen, Kazakhstan</td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td class="font-bold">lostlang@icloud.com</td>
+			</tr>
+			</table>
+			</div>
+		</div>
+		<hr class="pb-1 m-auto background-white w-4/5"/>
+		<div class="py-3 px-2" id="skills">
+			<h2 class="pl-2 text-4xl">Skills</h2>
+
+			<div class="mb-1 pl-5">
+			<h3 class="text-3xl">Languages</h3>
+			<table>
+			<tr>
+				<td>Russian:</td>
+				<td class="font-bold color-green">Native</td>
+			</tr>
+			<tr>
+				<td>English:</td>
+				<td class="font-bold color-orange">A2-B1</td>
+			</tr>
+			</table>
+			</div>
+			<hr class="pb-1 m-auto background-white w-5/6"/>
+
+			<div class="mb-1 pl-5">
+			<h3 class="text-3xl">Key Skills</h3>
+			<ul class="flex">
+				<li>Go(Golang)</li>
+				<li>Python</li>
+				<li>Rust</li>
+				<li>Docker</li>
+				<li>Kafka</li>
+			</ul>
+			</div>
+			<hr class="pb-1 m-auto background-white w-5/6"/>
+
+			<div class="mb-1 pl-5">
+			<h3 class="text-3xl">Additional Skills</h3>
+			<ul class="flex flex-wrap">
+				<li>Lua</li>
+				<li>Kotlin</li>
+				<li>JS(JavaScript)</li>
+				<li>TS(TypeScript)</li>
+				<li>Svelte</li>
+				<li>Bash</li>
+				<li>Redis</li>
+				<li>Sql</li>
+				<li>PostgreSQL</li>
+				<li>YAML</li>
+				<li>TOML</li>
+				<li>MD</li>
+				<li>LSP</li>
+				<li>Linters</li>
+				<li>Copilot</li>
+				<li>Nvim</li>
+				<li>WSL</li>
+			</ul>
+			</div>
+		</div>
+		<hr class="pb-1 m-auto background-white w-4/5"/>
+		<div class="py-3 px-2" id="experience">
+			<h2 class="pl-2 text-4xl">Professional Experience</h2>
+
+			<div class="mb-1 pl-5">
+			<table class="text-3xl w-full justify-between">
+			<td>
+			<h3>Smart Geo Systems</h3>
+			</td>
+			<td class="text-right">
+			<a class="color-blue text-2xl" href="https://smartgeosystems.ru/">(link)</a>
+			</td>
+			</table>
+			<h4 class="text-2xl">Senior Software Engineer</h4>
+			<p>
+			<ul class="list-disc">
+				<li>Old tasks.</li>
+				<li>Refactor old mono-repositories into a repository
+				with a new architecture and limited functionality.</li>
+				<li>Developing new services using Rust.</li>
+			</ul>
+			<span class="block text-right font-bold color-green">
+			go, rust, docker, kafka, ci\cd
+			</span>
+			<span class="block text-right font-bold">06.2023 - Present</span>
+			</p>
+			<h4 class="text-2xl">Software Engineer</h4>
+			<ul class="list-disc">
+				<li>Development high-load micro-services.</li>
+				<li>Updating and adding new features to old services.</li>
+				<li>Development decoders, encoders and simulation for data.</li>
+				<li>Packaging services in Docker.</li>
+				<li>Update CI/CD pipeline.</li>
+			</ul>
+			<p>
+			<span class="block text-right font-bold color-green">
+			go, python, docker, kafka, redis, ci\cd
+			</span>
+			<span class="block text-right font-bold">03.2022 - 06.2023</span>
+			</p>
+			</div>
+			<hr class="pb-1 m-auto background-white w-5/6"/>
+
+			<div class="mb-1 pl-5">
+			<table class="text-3xl w-full justify-between">
+			<td>
+			<h3>Wildberries</h3>
+			</td>
+			<td class="text-right">
+			<a class="color-blue text-2xl" href="https://www.wildberries.ru/">(link)</a>
+			</td>
+			</table>
+			<h4 class="text-2xl">Intern</h4>
+			<p>
+			Learning the language, solving problems similar to real
+			problems under the guidance of mentors.
+			<span class="block text-right font-bold color-green">
+			go
+			</span>
+			<span class="block text-right font-bold">06.2021 - 09.2021</span>
+			</p>
+			</div>
+			<hr class="pb-1 m-auto background-white w-5/6"/>
+
+			<div class="mb-1 pl-5">
+			<table class="text-3xl w-full justify-between">
+			<td>
+			<h3>Moscow Polytechnic University</h3>
+			</td>
+			<td class="text-right">
+			<a class="color-blue text-2xl" href="https://mospolytech.ru/">(link)</a>
+			</td>
+			</table>
+			<h4 class="text-2xl">Intern</h4>
+			<p>
+			Developing client-server system "AR-Academic Record Book".
+			<span class="block text-right font-bold color-green">
+			python, js, postgresql, computer vision
+			</span>
+			<span class="block text-right font-bold">1.2021 - 6.2021</span>
+			</p>
+			</div>
+		</div>
+		<hr class="pb-1 m-auto background-white w-4/5"/>
+		<div class="py-3 px-2" id="education">
+			<h2 class="pl-3 text-4xl">Education</h2>
+
+			<div class="mb-1 pl-5">
+			<table class="text-3xl w-full justify-between">
+			<td>
+			<h3>Moscow Institute of Physics and Technology</h3>
+			</td>
+			<td class="text-right">
+			<a class="color-blue text-2xl" href="https://mipt.ru/">(link)</a>
+			</td>
+			</table>
+			<h4 class="text-2xl">Master's degree</h4>
+			<table>
+			<p>
+			Information Security
+			</p>
+			<td>Status:</td>
+			<td class="font-bold color-orange">Discontinued</td>
+			</table>
+			<p>
+			<span class="block text-right font-bold color-green">
+			data science, cryptography, bio informatics
+			</span>
+			<span class="block text-right font-bold">2021 - 2022</span>
+			</p>
+			</div>
+			<hr class="pb-1 m-auto background-white w-5/6"/>
+
+			<div class="mb-1 pl-5">
+			<table class="text-3xl w-full justify-between">
+			<td>
+			<h3>Sber University</h3>
+			</td>
+			<td class="text-right pl-5">
+			<a class="color-blue text-2xl" href="https://sberuniversity.ru/">(link)</a>
+			</td>
+			</table>
+			<h4 class="text-2xl">Professional development courses</h4>
+			<p>
+			Kotlin and Java course
+			</p>
+			<table>
+			<td>Status:</td>
+			<td class="font-bold color-green">Completed</td>
+			</table>
+			<p>
+			<span class="block text-right font-bold color-green">
+			kotlin, java, spring, testing
+			</span>
+			<span class="block text-right font-bold">2021 - 2021</span>
+			</p>
+			</div>
+			<hr class="pb-1 m-auto background-white w-5/6"/>
+
+			<div class="mb-1 pl-5">
+			<table class="text-3xl w-full justify-between">
+			<td>
+			<h3 class="text-3xl">Moscow Polytechnic University</h3>
+			</td>
+			<td class="text-right">
+			<a class="color-blue text-2xl" href="https://mospolytech.ru/">(link)</a>
+			</td>
+			</table>
+			<h4 class="text-2xl">Bachelor's degree</h4>
+			<p>
+			Information Technology<br/>
+			Augmented and Visual Reality
+			</p>
+			<table>
+			<td>Status:</td>
+			<td class="font-bold color-green">Completed</td>
+			</table>
+			<p>
+			<span class="block text-right font-bold color-green">
+			data science, computer vision, c, c++, 3d modeling, database
+			</span>
+			<span class="block text-right font-bold">2017 - 2021</span>
+			</p>
+			</div>
+		</div>
+		<hr class="pb-1 m-auto background-white w-4/5"/>
+		<div class="py-3 px-2" id="projects">
+			<h2 class="pl-3 text-4xl">Pet Projects</h2>
+
+			<div class="mb-1 pl-5">
+			<table class="text-3xl w-full justify-between">
+			<td>
+			<h3>lostsand.nvim</h3>
+			</td>
+			<td class="text-right">
+			<a class="color-blue text-2xl" href="https://github.com/lostlang/lostsand.nvim">(link)</a>
+			</td>
+			</table>
+			<p>
+			A light Neovim theme written in Lua, with support for lsp,
+			treesitter and lots of plugins.
+			<span class="block text-right font-bold color-green">lua</span>
+			</p>
+			</div>
+			<hr class="pb-1 m-auto background-white w-5/6"/>
+
+			<div class="mb-1 pl-5">
+			<table class="text-3xl w-full justify-between">
+			<td>
+			<h3>steamlike</h3>
+			</td>
+			<td class="text-right">
+			<a class="color-blue text-2xl" href="https://github.com/lostlang/steamlike">(link)</a>
+			</td>
+			</table>
+			<p>
+			A web app creating pretty wait screen for streaming like a steam gallery.
+			<span class="block text-right font-bold color-green">svelte, js, ts, html, css</span>
+			</p>
+			</div>
+			<hr class="pb-1 m-auto background-white w-5/6"/>
+
+			<div class="mb-1 pl-5">
+			<table class="text-3xl w-full justify-between">
+			<td>
+			<h3>LeetcodeGo</h3>
+			</td>
+			<td class="text-right">
+			<a class="color-blue text-2xl" href="https://github.com/lostlang/LeetcodeGo">(link)</a>
+			</td>
+			</table>
+			<p>
+			My leetcode solution.
+			<span class="block text-right font-bold color-green">go</span>
+			</p>
+			</div>
+		</div>
+		<hr class="pb-1 m-auto background-white w-4/5"/>
+	</main>
+	<footer>
+	</footer>
+	</div>
 </body>
 </html>

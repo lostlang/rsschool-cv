@@ -1,0 +1,52 @@
+:root {
+	--light-white: #eddfbf;
+	--white: #cdb479;
+	--black: #2c2249;
+	--light-black: #60577a;
+	--blue: #074297;
+	--green: #437f06;
+	--orange: #bf6f40;
+}
+
+body {
+	font-family: "JetBrains Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	background-color: var(--light-white);
+	color: var(--light-black);
+}
+
+#content {
+	max-width: 1000px;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+	color: var(--black);
+}
+
+li {
+	padding: 0 1rem 0 0;
+}
+
+.color-blue {
+	color: var(--blue);
+}
+
+.color-green {
+	color: var(--green);
+}
+
+.color-orange {
+	color: var(--orange);
+}
+
+.background-white {
+	background-color: var(--white);
+}
+
+@media (max-width: 600px) {
+	#content {
+		width: 600px;
+	}
+}
